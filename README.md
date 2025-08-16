@@ -5,7 +5,9 @@ Welcome!
 
 This is a grasshopper plugin I developed that allows you to talk to mainsail and klipper in real time. 
 
-Firstly, please install the plugin. 
+Firstly, please install the plugin by downloading the .zip file, unzipping it, unblocking it, and putting it in libraries folder in grasshopper. 
 
 To use it, run the bridge.py script and connect to it in grasshopper. Make sure to add your local printer host in the top of the script. check the connection and send Gcode lines to mainsail and klipper using the send component. 
 You can also navigate to a locally hosted web socket that will show how many commands are left, how many are done... and so on. 
+
+Look at the example file to see how things are set up. 
