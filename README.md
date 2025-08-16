@@ -10,4 +10,4 @@ Firstly, please install the plugin by downloading the .zip file, unzipping it, u
 To use it, run the bridge.py script and connect to it in grasshopper. Make sure to add your local printer host in the top of the script. check the connection and send Gcode lines to mainsail and klipper using the send component. 
 You can also navigate to a locally hosted web socket that will show how many commands are left, how many are done... and so on. 
 
-Look at the example file to see how things are set up. 
+Look at the example file to see how things are set up and DO NOT FORGET to replace the line in Bridge.py with your local host! 
